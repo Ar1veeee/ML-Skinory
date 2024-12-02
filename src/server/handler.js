@@ -1,6 +1,6 @@
 const loadModel = require("../services/loadModel");
 const predictClassification = require("../services/inferenceService");
-const fetchImageFromUrl = require("../services/fetchImageFromUrl");
+const fetchImageFromUrl = require("../services/fetchImage");
 const InputError = require("../exceptions/inputError");
 const { v4: uuidv4 } = require("uuid");
 const storeData = require("../services/storeData");

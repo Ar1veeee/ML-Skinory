@@ -3,6 +3,6 @@ const { postPredictHandler } = require("./handler");
 
 const router = express.Router();
 
-router.post("/predict", handleMulterError, postPredictHandler);
+router.post("/predict", postPredictHandler);
 
 module.exports = router;
